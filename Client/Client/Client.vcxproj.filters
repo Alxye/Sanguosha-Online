@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{2c2d16ed-ccd8-437c-a301-0f8abaee1ed3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\源文件">
+      <UniqueIdentifier>{b985e91a-4893-43c6-84b2-68df31e4c32e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\头文件">
+      <UniqueIdentifier>{41351143-a597-46d2-b86b-168bdcc3af52}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="client.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\Draw.cpp">
+      <Filter>Common\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\Human_round.cpp">
+      <Filter>Common\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\Initial.cpp">
+      <Filter>Common\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\Input.cpp">
+      <Filter>Common\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\Logic.cpp">
+      <Filter>Common\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\Machine_round.cpp">
+      <Filter>Common\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\Human_round_NET.cpp">
+      <Filter>Common\源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\common\core.h">
+      <Filter>Common\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\Game.h">
+      <Filter>Common\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="image\Sanguosha.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
